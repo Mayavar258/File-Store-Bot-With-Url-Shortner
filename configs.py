@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "1522127"))
   API_HASH = os.environ.get("API_HASH", "1252ffe16baf341bfd7236f92df76b0e")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6647648650:AAH0DurJ6Njle_p0MS7dUOyo0bg-QiwPp_s")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "https://telegram.me/MNFilestore_bot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "MNFilestore_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002079130140"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "anlinks.in")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "5fe07b509a67719f0cda219f9f4cc46b1e45c0cc")
